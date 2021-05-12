@@ -1,0 +1,14 @@
+jwt:
+  secret: '[a-zA-Z0-9._]^+$Guidelines456123forAlphabeticalArrayNumeralsAndOtherSymbol$'
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/smartBearRental
+    username: root
+    password: Fidelio6891
+  jpa:
+    show-sql: true
+    database: mysql
+    hibernate:
+      ddl-auto: update
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect

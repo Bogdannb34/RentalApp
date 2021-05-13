@@ -2,14 +2,12 @@ package com.finalproject.SmartBear.model.rental;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.finalproject.SmartBear.model.user.User;
-import lombok.AllArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-@AllArgsConstructor
 @Entity(name = "rentals")
 public class Rental implements Serializable {
 

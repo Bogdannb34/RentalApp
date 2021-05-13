@@ -1,14 +1,12 @@
 package com.finalproject.SmartBear.model.rental;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import lombok.AllArgsConstructor;
 
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.HashSet;
 import java.util.Set;
 
-@AllArgsConstructor
 @Entity(name = "rentLocation")
 public class RentLocation implements Serializable {
 
